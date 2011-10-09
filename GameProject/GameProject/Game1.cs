@@ -87,7 +87,7 @@ namespace GameProject
        
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Black);
+            GraphicsDevice.Clear(Color.White);
 
             DrawModel(terrain);
             base.Draw(gameTime);

@@ -9,10 +9,10 @@
       <Options>None</Options>
       <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\terrain.xnb</Output>
       <Time>2011-10-08T16:01:21.8192+11:00</Time>
-      <Request>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\rocks_0.xnb</Request>
+      <Request>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\grass_0.xnb</Request>
     </Item>
     <Item>
-      <Source>rocks.bmp</Source>
+      <Source>grass.jpg</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -24,8 +24,8 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\rocks_0.xnb</Output>
-      <Time>2010-09-20T12:53:08+10:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\grass_0.xnb</Output>
+      <Time>2011-10-09T19:07:52.3652+11:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -65,7 +65,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Users\Jawsh\Desktop\356Project\GameProjectPipeline\bin\x86\Debug\GameProjectPipeline.dll</Key>
-        <Value>2011-10-09T21:10:56.7652+11:00</Value>
+        <Value>2011-10-10T10:25:30.1892+11:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>

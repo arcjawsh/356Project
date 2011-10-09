@@ -79,7 +79,7 @@ namespace GameProjectPipeline
         /// Controls the texture that will be applied to the terrain. If no value is
         /// supplied, a texture will not be applied.
         /// </summary>
-        [DefaultValue("rocks.bmp")]
+        [DefaultValue("grass.jpg")]
         [Description("Controls the texture that will be applied to the terrain. If " +
                      "no value is supplied, a texture will not be applied.")]
         [DisplayName("Terrain Texture")]
@@ -88,7 +88,7 @@ namespace GameProjectPipeline
             get { return terrainTexture; }
             set { terrainTexture = value; }
         }
-        private string terrainTexture = "rocks.bmp";
+        private string terrainTexture = "grass.jpg";
 
         #endregion
 
