@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProject", "GameProject\GameProject\GameProject.csproj", "{6EB12E29-39AA-4EBA-A973-A054AB46CE0D}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "GameProjectContent", "GameProject\GameProjectContent\GameProjectContent.contentproj", "{CCCAA016-5700-4B52-B4AE-1008540334D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProjectContent", "GameProject\GameProjectContent\GameProjectContent.contentproj", "{CCCAA016-5700-4B52-B4AE-1008540334D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProjectPipeline", "GameProjectPipeline\GameProjectPipeline.csproj", "{B7481A01-34EE-4D89-B0E3-1B030A6D980A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,10 @@ Global
 		{6EB12E29-39AA-4EBA-A973-A054AB46CE0D}.Release|x86.Build.0 = Release|x86
 		{CCCAA016-5700-4B52-B4AE-1008540334D7}.Debug|x86.ActiveCfg = Debug|x86
 		{CCCAA016-5700-4B52-B4AE-1008540334D7}.Release|x86.ActiveCfg = Release|x86
+		{B7481A01-34EE-4D89-B0E3-1B030A6D980A}.Debug|x86.ActiveCfg = Debug|x86
+		{B7481A01-34EE-4D89-B0E3-1B030A6D980A}.Debug|x86.Build.0 = Debug|x86
+		{B7481A01-34EE-4D89-B0E3-1B030A6D980A}.Release|x86.ActiveCfg = Debug|x86
+		{B7481A01-34EE-4D89-B0E3-1B030A6D980A}.Release|x86.Build.0 = Debug|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
