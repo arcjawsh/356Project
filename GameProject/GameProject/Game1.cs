@@ -19,11 +19,13 @@ namespace GameProject
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        Matrix projectionMatrix;
-        Matrix viewMatrix;
+        //Matrix projectionMatrix;
+        //Matrix viewMatrix;
 
         Model terrain;
         HeightMapInfo heightMapInfo;
+
+        public Camera camera;
 
         public Game1()
         {
@@ -35,10 +37,14 @@ namespace GameProject
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            camera = new Camera(this,new Vector3(0, 0, 2),
+            new Vector3(0, 0, 0), Vector3.Up);
+            /*
             projectionMatrix = Matrix.CreatePerspectiveFieldOfView(
                MathHelper.ToRadians(45.0f), GraphicsDevice.Viewport.AspectRatio, 1f, 10000);
             viewMatrix = Matrix.CreateLookAt(new Vector3(0, 0, 2),
-            new Vector3(0, 0, 0), Vector3.Up);
+            new Vector3(0, 0, 0), Vector3.Up);*/
+
 
             base.Initialize();
         }
@@ -73,7 +79,7 @@ namespace GameProject
         protected override void Update(GameTime gameTime)
         {
             //Handle Input
-            //Update Camera
+            camera.Update(gameTime);//Update Camera
 
             base.Update(gameTime);
         }
@@ -97,8 +103,8 @@ namespace GameProject
                 foreach (BasicEffect effect in mesh.Effects)
                 {
                     effect.World = boneTransforms[mesh.ParentBone.Index];
-                    effect.View = viewMatrix;
-                    effect.Projection = projectionMatrix;
+                    effect.View = camera.viewMatrix;
+                    effect.Projection = camera.projectionMatrix;
 
                     effect.EnableDefaultLighting();
                     effect.PreferPerPixelLighting = true;
