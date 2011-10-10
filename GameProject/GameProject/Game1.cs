@@ -37,7 +37,7 @@ namespace GameProject
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            camera = new Camera(this,new Vector3(0, 0, 2),
+            camera = new Camera(this,new Vector3(0, 10, 12),
             new Vector3(0, 0, 0), Vector3.Up);
             /*
             projectionMatrix = Matrix.CreatePerspectiveFieldOfView(
