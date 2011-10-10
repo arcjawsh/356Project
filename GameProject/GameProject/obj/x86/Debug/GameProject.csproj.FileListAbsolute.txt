@@ -6,3 +6,4 @@ C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\obj\x86\Debug\Microsof
 C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\obj\x86\Debug\GameProject.exe
 C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\obj\x86\Debug\GameProject.pdb
 C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\grass_0.xnb
+C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\DottedLine.xnb

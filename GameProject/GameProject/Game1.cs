@@ -17,13 +17,15 @@ namespace GameProject
     public class Game1 : Microsoft.Xna.Framework.Game
     {
         GraphicsDeviceManager graphics;
-        SpriteBatch spriteBatch;
+        public SpriteBatch spriteBatch;
 
         //Matrix projectionMatrix;
         //Matrix viewMatrix;
 
         Model terrain;
         HeightMapInfo heightMapInfo;
+        SelectionBox box;
+     
 
         public Camera camera;
 
@@ -31,6 +33,8 @@ namespace GameProject
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            box = new SelectionBox(this);
+            Components.Add(box);
         }
 
        
@@ -39,13 +43,7 @@ namespace GameProject
             // TODO: Add your initialization logic here
             camera = new Camera(this,new Vector3(0, 10, 12),
             new Vector3(0, 0, 0), Vector3.Up);
-            /*
-            projectionMatrix = Matrix.CreatePerspectiveFieldOfView(
-               MathHelper.ToRadians(45.0f), GraphicsDevice.Viewport.AspectRatio, 1f, 10000);
-            viewMatrix = Matrix.CreateLookAt(new Vector3(0, 0, 2),
-            new Vector3(0, 0, 0), Vector3.Up);*/
-
-
+            this.IsMouseVisible = true;
             base.Initialize();
         }
 
@@ -54,8 +52,7 @@ namespace GameProject
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            // TODO: use this.Content to load your game content here
-
+  
             terrain = Content.Load<Model>("terrain");
             // The terrain processor attached a HeightMapInfo to the terrain model's
            
@@ -80,18 +77,22 @@ namespace GameProject
         {
             //Handle Input
             camera.Update(gameTime);//Update Camera
-
             base.Update(gameTime);
         }
+
+       
 
        
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.White);
-
-            DrawModel(terrain);
+            //DrawModel(terrain); //draws the terrain
+            DrawModel(terrain); //draws the terrain
             base.Draw(gameTime);
         }
+
+       
+
 
         void DrawModel(Model model)
         { //common function for drawing a model
@@ -119,5 +120,7 @@ namespace GameProject
                 mesh.Draw();
             }
         }
+
+       
     }
 }

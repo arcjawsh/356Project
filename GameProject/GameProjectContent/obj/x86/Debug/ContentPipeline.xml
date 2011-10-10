@@ -27,6 +27,15 @@
       <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\grass_0.xnb</Output>
       <Time>2011-10-09T19:07:52.3652+11:00</Time>
     </Item>
+    <Item>
+      <Source>DottedLine.png</Source>
+      <Name>DottedLine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\DottedLine.xnb</Output>
+      <Time>2011-10-10T15:52:38.226+11:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
