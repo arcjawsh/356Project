@@ -18,14 +18,12 @@ namespace GameProject
     {
         GraphicsDeviceManager graphics;
         public SpriteBatch spriteBatch;
-
-        //Matrix projectionMatrix;
-        //Matrix viewMatrix;
-
         Model terrain;
         HeightMapInfo heightMapInfo;
         SelectionBox box;
-     
+        Song music;
+
+        Tank tank;
 
         public Camera camera;
 
@@ -34,6 +32,7 @@ namespace GameProject
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             box = new SelectionBox(this);
+            tank = new Tank(); //create a tank
             Components.Add(box);
         }
 
@@ -41,9 +40,10 @@ namespace GameProject
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            camera = new Camera(this,new Vector3(0, 10, 12),
+            camera = new Camera(this,new Vector3(0, 20, 0),
             new Vector3(0, 0, 0), Vector3.Up);
             this.IsMouseVisible = true;
+
             base.Initialize();
         }
 
@@ -52,18 +52,20 @@ namespace GameProject
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-  
+            music = Content.Load<Song>("backgroundMusic");
             terrain = Content.Load<Model>("terrain");
             // The terrain processor attached a HeightMapInfo to the terrain model's
            
-            heightMapInfo = terrain.Tag as HeightMapInfo;
-            if (heightMapInfo == null)
+            heightMapInfo = terrain.Tag as HeightMapInfo;            if (heightMapInfo == null)
             {
                 string message = "The terrain model did not have a HeightMapInfo " +
                     "object attached. Are you sure you are using the " +
                     "TerrainProcessor?";
                 throw new InvalidOperationException(message);
             }
+            MediaPlayer.Play(music);
+            MediaPlayer.IsRepeating = true; //loop song
+            tank.LoadContent(Content);
         }
 
        
@@ -77,17 +79,17 @@ namespace GameProject
         {
             //Handle Input
             camera.Update(gameTime);//Update Camera
+            tank.HandleInput(heightMapInfo);
             base.Update(gameTime);
         }
 
-       
-
-       
+  
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.White);
             //DrawModel(terrain); //draws the terrain
             DrawModel(terrain); //draws the terrain
+            tank.Draw(camera.viewMatrix, camera.projectionMatrix);
             base.Draw(gameTime);
         }
 

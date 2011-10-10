@@ -22,7 +22,6 @@ namespace GameProject
         Rectangle selectionBox;
         Texture2D line;
         Game1 currentGame;
-        GraphicsDevice graphics;
    
         public SelectionBox(Game1 game)
             : base(game)

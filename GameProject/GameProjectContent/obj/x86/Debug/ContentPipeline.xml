@@ -12,6 +12,40 @@
       <Request>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\grass_0.xnb</Request>
     </Item>
     <Item>
+      <Source>DottedLine.png</Source>
+      <Name>DottedLine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\DottedLine.xnb</Output>
+      <Time>2011-10-10T15:52:38.226+11:00</Time>
+    </Item>
+    <Item>
+      <Source>backgroundMusic.mp3</Source>
+      <Name>backgroundMusic</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\backgroundMusic.xnb</Output>
+      <Extra>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\backgroundMusic.wma</Extra>
+      <Time>2011-10-10T20:36:48.377+11:00</Time>
+    </Item>
+    <Item>
+      <Source>tank.fbx</Source>
+      <Name>tank</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\tank.xnb</Output>
+      <Time>2011-10-10T20:41:46.21+11:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\tank_0.xml</Key>
+        <Value>2011-10-10T20:58:17.579+11:00</Value>
+      </Dependency>
+      <Request>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\engine_diff_tex_0.xnb</Request>
+      <Request>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\turret_alt_diff_tex_0.xnb</Request>
+    </Item>
+    <Item>
       <Source>grass.jpg</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
@@ -28,13 +62,52 @@
       <Time>2011-10-09T19:07:52.3652+11:00</Time>
     </Item>
     <Item>
-      <Source>DottedLine.png</Source>
-      <Name>DottedLine</Name>
+      <Source>tank.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\tank_0.xml</Output>
+      <Time>2011-10-10T20:41:46.21+11:00</Time>
+    </Item>
+    <Item>
+      <Source>engine_diff_tex.tga</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\DottedLine.xnb</Output>
-      <Time>2011-10-10T15:52:38.226+11:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\engine_diff_tex_0.xnb</Output>
+      <Time>2010-09-20T12:53:08+10:00</Time>
+    </Item>
+    <Item>
+      <Source>turret_alt_diff_tex.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\turret_alt_diff_tex_0.xnb</Output>
+      <Time>2010-09-20T12:53:10+10:00</Time>
+    </Item>
+    <Item>
+      <Source>beep.wav</Source>
+      <Name>beep</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\beep.xnb</Output>
+      <Time>2011-10-10T21:13:09.083+11:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -74,7 +147,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Users\Jawsh\Desktop\356Project\GameProjectPipeline\bin\x86\Debug\GameProjectPipeline.dll</Key>
-        <Value>2011-10-10T10:25:30.1892+11:00</Value>
+        <Value>2011-10-10T20:58:09.797+11:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
