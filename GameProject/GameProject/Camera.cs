@@ -74,6 +74,16 @@ namespace GameProject
                 //cameraPosition = cameraPosition - (Vector3.Cross(cameraUp, cameraDirection) * speed);
                 cameraPosition += left * speed;
             }
+            if (Keyboard.GetState().IsKeyDown(Keys.R))
+            {
+                //cameraPosition = cameraPosition - (Vector3.Cross(cameraUp, cameraDirection) * speed);
+                cameraPosition += cameraUp * speed;
+            }
+            if (Keyboard.GetState().IsKeyDown(Keys.F))
+            {
+                //cameraPosition = cameraPosition - (Vector3.Cross(cameraUp, cameraDirection) * speed);
+                cameraPosition -= cameraUp * speed;
+            }
 
             // Recreate the camera view matrix
             CreateLookAt();

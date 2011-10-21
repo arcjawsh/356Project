@@ -7,9 +7,9 @@
       <Importer>TextureImporter</Importer>
       <Processor>TerrainProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\terrain.xnb</Output>
-      <Time>2011-10-08T16:01:21.8192+11:00</Time>
-      <Request>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\grass_0.xnb</Request>
+      <Output>C:\Users\Damien\Desktop\TheProject\356Project\GameProject\GameProject\bin\x86\Debug\Content\terrain.xnb</Output>
+      <Time>2011-10-20T04:44:17.9168-02:00</Time>
+      <Request>C:\Users\Damien\Desktop\TheProject\356Project\GameProject\GameProject\bin\x86\Debug\Content\grass_0.xnb</Request>
     </Item>
     <Item>
       <Source>DottedLine.png</Source>
@@ -17,8 +17,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\DottedLine.xnb</Output>
-      <Time>2011-10-10T15:52:38.226+11:00</Time>
+      <Output>C:\Users\Damien\Desktop\TheProject\356Project\GameProject\GameProject\bin\x86\Debug\Content\DottedLine.xnb</Output>
+      <Time>2011-10-20T04:44:17.1212-02:00</Time>
     </Item>
     <Item>
       <Source>backgroundMusic.mp3</Source>
@@ -26,9 +26,9 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\backgroundMusic.xnb</Output>
-      <Extra>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\backgroundMusic.wma</Extra>
-      <Time>2011-10-10T20:36:48.377+11:00</Time>
+      <Output>C:\Users\Damien\Desktop\TheProject\356Project\GameProject\GameProject\bin\x86\Debug\Content\backgroundMusic.xnb</Output>
+      <Extra>C:\Users\Damien\Desktop\TheProject\356Project\GameProject\GameProject\bin\x86\Debug\Content\backgroundMusic.wma</Extra>
+      <Time>2011-10-20T04:44:17.168-02:00</Time>
     </Item>
     <Item>
       <Source>tank.fbx</Source>
@@ -36,14 +36,23 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\tank.xnb</Output>
-      <Time>2011-10-10T20:41:46.21+11:00</Time>
+      <Output>C:\Users\Damien\Desktop\TheProject\356Project\GameProject\GameProject\bin\x86\Debug\Content\tank.xnb</Output>
+      <Time>2011-10-20T04:44:17.9012-02:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\tank_0.xml</Key>
-        <Value>2011-10-10T20:58:17.579+11:00</Value>
+        <Value>2011-10-20T23:59:44.0176-02:00</Value>
       </Dependency>
-      <Request>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\engine_diff_tex_0.xnb</Request>
-      <Request>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\turret_alt_diff_tex_0.xnb</Request>
+      <Request>C:\Users\Damien\Desktop\TheProject\356Project\GameProject\GameProject\bin\x86\Debug\Content\engine_diff_tex_0.xnb</Request>
+      <Request>C:\Users\Damien\Desktop\TheProject\356Project\GameProject\GameProject\bin\x86\Debug\Content\turret_alt_diff_tex_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>beep.wav</Source>
+      <Name>beep</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Damien\Desktop\TheProject\356Project\GameProject\GameProject\bin\x86\Debug\Content\beep.xnb</Output>
+      <Time>2011-10-20T04:44:17.168-02:00</Time>
     </Item>
     <Item>
       <Source>grass.jpg</Source>
@@ -58,15 +67,15 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\grass_0.xnb</Output>
-      <Time>2011-10-09T19:07:52.3652+11:00</Time>
+      <Output>C:\Users\Damien\Desktop\TheProject\356Project\GameProject\GameProject\bin\x86\Debug\Content\grass_0.xnb</Output>
+      <Time>2011-10-20T04:44:17.3552-02:00</Time>
     </Item>
     <Item>
       <Source>tank.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\tank_0.xml</Output>
-      <Time>2011-10-10T20:41:46.21+11:00</Time>
+      <Time>2011-10-20T04:44:17.9012-02:00</Time>
     </Item>
     <Item>
       <Source>engine_diff_tex.tga</Source>
@@ -81,8 +90,8 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\engine_diff_tex_0.xnb</Output>
-      <Time>2010-09-20T12:53:08+10:00</Time>
+      <Output>C:\Users\Damien\Desktop\TheProject\356Project\GameProject\GameProject\bin\x86\Debug\Content\engine_diff_tex_0.xnb</Output>
+      <Time>2011-10-20T04:44:17.324-02:00</Time>
     </Item>
     <Item>
       <Source>turret_alt_diff_tex.tga</Source>
@@ -97,17 +106,8 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\turret_alt_diff_tex_0.xnb</Output>
-      <Time>2010-09-20T12:53:10+10:00</Time>
-    </Item>
-    <Item>
-      <Source>beep.wav</Source>
-      <Name>beep</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\beep.xnb</Output>
-      <Time>2011-10-10T21:13:09.083+11:00</Time>
+      <Output>C:\Users\Damien\Desktop\TheProject\356Project\GameProject\GameProject\bin\x86\Debug\Content\turret_alt_diff_tex_0.xnb</Output>
+      <Time>2011-10-20T04:44:18.0884-02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -115,43 +115,43 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProjectContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProjectContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Damien\Desktop\TheProject\356Project\GameProject\GameProjectContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Damien\Desktop\TheProject\356Project\GameProject\GameProject\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Damien\Desktop\TheProject\356Project\GameProject\GameProjectContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Damien\Desktop\TheProject\356Project\GameProject\GameProject\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2010-08-23T12:41:18+10:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-01:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2010-08-23T12:41:18+10:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-01:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2010-08-23T12:41:18+10:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-01:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2010-08-23T12:41:18+10:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-01:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2010-08-23T12:41:18+10:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-01:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2010-08-23T12:41:18+10:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-01:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Users\Jawsh\Desktop\356Project\GameProjectPipeline\bin\x86\Debug\GameProjectPipeline.dll</Key>
-        <Value>2011-10-10T20:58:09.797+11:00</Value>
+        <Key>C:\Users\Damien\Desktop\TheProject\356Project\GameProjectPipeline\bin\x86\Debug\GameProjectPipeline.dll</Key>
+        <Value>2011-10-20T04:44:18.1976-02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2011-08-04T11:05:20.6468+10:00</Value>
+        <Value>2011-09-13T11:14:40.9914-01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

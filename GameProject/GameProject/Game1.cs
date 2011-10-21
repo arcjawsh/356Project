@@ -66,6 +66,7 @@ namespace GameProject
             MediaPlayer.Play(music);
             MediaPlayer.IsRepeating = true; //loop song
             tank.LoadContent(Content);
+            
         }
 
        
@@ -101,6 +102,7 @@ namespace GameProject
             Matrix[] boneTransforms = new Matrix[model.Bones.Count];
             model.CopyAbsoluteBoneTransformsTo(boneTransforms);
 
+            
             foreach (ModelMesh mesh in model.Meshes)
             {
                 foreach (BasicEffect effect in mesh.Effects)
@@ -108,7 +110,6 @@ namespace GameProject
                     effect.World = boneTransforms[mesh.ParentBone.Index];
                     effect.View = camera.viewMatrix;
                     effect.Projection = camera.projectionMatrix;
-
                     effect.EnableDefaultLighting();
                     effect.PreferPerPixelLighting = true;
 
