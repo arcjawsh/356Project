@@ -22,6 +22,9 @@ namespace GameProject
         Rectangle selectionBox;
         Texture2D line;
         Game1 currentGame;
+        SpriteFont font;
+        Ray ray;
+        HeightMapInfo heightMapInfo;
    
         public SelectionBox(Game1 game)
             : base(game)
@@ -37,12 +40,19 @@ namespace GameProject
         {
             selectionBox = new Rectangle(-1, -1, 0, 0); //for the selection of objects
             prevMouseState = Mouse.GetState();
+            BoundingSphereRenderer.Initialize(currentGame.GraphicsDevice, 45);
             base.Initialize();
+        }
+
+        public void setHM(HeightMapInfo h)
+        {
+            heightMapInfo = h;
         }
 
         protected override void LoadContent()
         {
             line = currentGame.Content.Load<Texture2D>("DottedLine");
+            font = currentGame.Content.Load<SpriteFont>("font");
             base.LoadContent();
         }
 
@@ -78,15 +88,84 @@ namespace GameProject
                 //Reset the selection square to no position with no height and width
                 selectionBox = new Rectangle(-1, -1, 0, 0);
             }
+
+            if (mouseState.LeftButton == ButtonState.Released && prevMouseState.LeftButton == ButtonState.Pressed) //clicked
+            {
+                clicked(mouseState);
+            }
+            if (mouseState.RightButton == ButtonState.Released && prevMouseState.RightButton == ButtonState.Pressed) //clicked
+            { //right click //moved to
+                moveTo(mouseState);
+            }
             //Store the previous mouse state
+            checkHover(mouseState);
             prevMouseState = mouseState;
             base.Update(gameTime);
         }
+
+        public void moveTo(MouseState mouseState)
+        {
+            Ray ray = getTankRay(mouseState);
+            foreach (Tank tank in currentGame.tanks) //if the tank is selected, send the move command
+            {
+                if (tank.isSelected == true)
+                    tank.moveTo(ray, heightMapInfo);
+            }
+        }
+
+
+        public Ray getTankRay(MouseState mouseState)
+        { //converts 2D space to 3D space
+            Ray ret;
+            Viewport vp = currentGame.GraphicsDevice.Viewport;
+            Vector3 pos1 = vp.Unproject(new Vector3(mouseState.X, mouseState.Y, 0), currentGame.camera.projectionMatrix, currentGame.camera.viewMatrix, Matrix.Identity);
+            Vector3 pos2 = vp.Unproject(new Vector3(mouseState.X, mouseState.Y, 1), currentGame.camera.projectionMatrix, currentGame.camera.viewMatrix, Matrix.Identity);
+            //Vector3 pos1 = vp.Unproject(new Vector3(mouseState.X, mouseState.Y, 0), Matrix.Identity, Matrix.Identity, Matrix.Identity);
+            //Vector3 pos2 = vp.Unproject(new Vector3(mouseState.X, mouseState.Y, 1), Matrix.Identity, Matrix.Identity, Matrix.Identity);
+            Vector3 dir = Vector3.Normalize(pos2 - pos1);
+            ret = new Ray(pos1, dir);
+            //BoundingSphere sphere = new BoundingSphere((ret.Position), 150f); //position and radius
+       //BoundingSphereRenderer.Draw(sphere, currentGame.camera.viewMatrix, currentGame.camera.projectionMatrix);
+            return ret;
+        }
+       
+
+        public void clicked(MouseState mouseState)
+        { //converts to screen space where user clicked
+            ray = getTankRay(mouseState);
+            foreach (Tank tank in currentGame.tanks)
+                tank.checkClick(ray);
+        }
+
+        public void checkHover(MouseState mouseState)
+        { //checks if mouse is hovered over a model
+            ray = getTankRay(mouseState);
+            foreach (Tank tank in currentGame.tanks)
+                tank.checkHover(ray); 
+
+        }
+
+
+        public void drawMousePosition()
+        {
+            //if ((prevMouseState.X >= 0 && prevMouseState.X <= Game.Window.ClientBounds.Width) && (prevMouseState.Y >= 0 && prevMouseState.Y <= Game.Window.ClientBounds.Height))
+                //currentGame.spriteBatch.DrawString(font, String.Format("{0}, {1}", prevMouseState.X, prevMouseState.Y), new Vector2(10, 10), Color.CornflowerBlue);
+            //MouseState state = Mouse.GetState();
+            //Ray ray = getTankRay(Mouse.GetState());
+            //currentGame.spriteBatch.DrawString(font, String.Format("{0}, {1}, {2}", ray.Position.X, ray.Position.Y, ray.Position.Z ), new Vector2(10, 25), Color.CornflowerBlue);
+        
+        }
+
+
 
         public override void Draw(GameTime gameTime)
         {
             //currentGame.spriteBatch.Begin(SaveStateMode.SaveState);
             currentGame.spriteBatch.Begin();
+            //draw where mouse is in vector2
+            drawMousePosition();
+            //draw where mouse is in the world
+
             //Draw the horizontal portions of the selection box 
             DrawHorizontalLine(selectionBox.Y);
             DrawHorizontalLine(selectionBox.Y + selectionBox.Height);
