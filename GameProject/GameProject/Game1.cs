@@ -80,7 +80,7 @@ namespace GameProject
             font = Content.Load<SpriteFont>("font");
             skybox = new Skybox("Sunset", Content);
             //terrain = Content.Load<Model>("terrain");
-            terrain = Content.Load<Model>("heightmaptest");
+            terrain = Content.Load<Model>("heightmap8");
             // The terrain processor attached a HeightMapInfo to the terrain model's
            
             heightMapInfo = terrain.Tag as HeightMapInfo;            if (heightMapInfo == null)

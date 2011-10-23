@@ -101,7 +101,7 @@ namespace GameProjectPipeline
         {
             PixelBitmapContent<float> heightfield;
 
-            MeshBuilder builder = MeshBuilder.StartMesh("heightmaptest");
+            MeshBuilder builder = MeshBuilder.StartMesh("heightmap8");
             //was originally terrain
 
             // Convert the input texture to float format, for ease of processing.

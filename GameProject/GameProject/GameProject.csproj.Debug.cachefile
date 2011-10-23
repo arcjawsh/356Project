@@ -1,21 +1,22 @@
 Content\font.xnb
 Content\cube.xnb
 Content\sphere.xnb
+Content\obstacle.xnb
 Content\tank.xnb
 Content\Skybox.xnb
 Content\Sunset.xnb
 Content\DottedLine.xnb
 Content\mouse.xnb
 Content\health bar.xnb
-Content\heightmaptest.xnb
+Content\heightmap8.xnb
 Content\backgroundMusic.xnb
 Content\beep.xnb
 Content\hover.xnb
 Content\engine.xnb
+Content\explosion.xnb
 Content\pawball_0.xnb
 Content\engine_diff_tex_0.xnb
 Content\turret_alt_diff_tex_0.xnb
 Content\terrain3_0.xnb
-Content\explosion.xnb
-Content\obstacle.xnb
+Content\ring.xnb
 Content\backgroundMusic.wma

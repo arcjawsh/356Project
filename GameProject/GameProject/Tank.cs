@@ -86,7 +86,7 @@ namespace GameProject
             hover = content.Load<SoundEffect>("hover");
             healthTexture = content.Load<Texture2D>("health bar");
             font = content.Load<SpriteFont>("font");
-            circle = content.Load<Model>("sphere");
+            circle = content.Load<Model>("ring");
             //engine = content.Load<SoundEffect>("engine");
             // as discussed in the Simple Animation Sample, we'll look up the bones
             // that control the wheels.
@@ -336,6 +336,8 @@ namespace GameProject
             {
                 beep.Play();
                 isSelected = true;
+                if (isMoving == true)
+                    isMoving = false;
             }
             else
                 isSelected = false;
@@ -394,9 +396,9 @@ namespace GameProject
             if (isSelected == true)
             { //draw model of circle
                 Vector3 temp = new Vector3();
-                temp = position + new Vector3(0, 300, 0);
+                temp = position + new Vector3(0, 3, 0);
 
-                Matrix worldMatrix2 = Matrix.CreateScale(5f, 5f, 5f) * orientation * Matrix.CreateTranslation(temp);
+                Matrix worldMatrix2 = Matrix.CreateScale(0.17f, 0.17f, 0.17f) * orientation * Matrix.CreateTranslation(temp);
                 Matrix[] boneTransform2s = new Matrix[circle.Bones.Count];
                 circle.CopyAbsoluteBoneTransformsTo(boneTransforms);
 

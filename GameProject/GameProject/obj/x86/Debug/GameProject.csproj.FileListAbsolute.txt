@@ -121,7 +121,8 @@ C:\Users\Jawsh\Desktop\GameProject\GameProject\GameProject\obj\x86\Debug\Resolve
 C:\Users\Jawsh\Desktop\GameProject\GameProject\GameProject\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Jawsh\Desktop\GameProject\GameProject\GameProject\obj\x86\Debug\GameProject.exe
 C:\Users\Jawsh\Desktop\GameProject\GameProject\GameProject\obj\x86\Debug\GameProject.pdb
-C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\heightmaptest.xnb
 C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\terrain3_0.xnb
 C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\explosion.xnb
 C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\obstacle.xnb
+C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\heightmap8.xnb
+C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\ring.xnb

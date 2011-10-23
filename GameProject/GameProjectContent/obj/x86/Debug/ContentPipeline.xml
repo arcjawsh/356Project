@@ -20,7 +20,7 @@
       <Time>2011-10-12T02:16:08+11:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\cube_0.xml</Key>
-        <Value>2011-10-23T20:29:21.465+11:00</Value>
+        <Value>2011-10-24T08:48:49.4248+11:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -33,9 +33,22 @@
       <Time>2011-10-12T06:10:30+11:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\sphere_0.xml</Key>
-        <Value>2011-10-23T20:29:21.687+11:00</Value>
+        <Value>2011-10-24T08:48:49.6276+11:00</Value>
       </Dependency>
       <Request>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\pawball_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>obstacle.fbx</Source>
+      <Name>obstacle</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\obstacle.xnb</Output>
+      <Time>2011-10-23T22:03:47.081+11:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\obstacle_0.xml</Key>
+        <Value>2011-10-24T08:48:49.9084+11:00</Value>
+      </Dependency>
     </Item>
     <Item>
       <Source>tank.fbx</Source>
@@ -47,7 +60,7 @@
       <Time>2011-10-10T20:41:48+11:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\tank_0.xml</Key>
-        <Value>2011-10-23T20:29:23.768+11:00</Value>
+        <Value>2011-10-24T08:48:51.7804+11:00</Value>
       </Dependency>
       <Request>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\engine_diff_tex_0.xnb</Request>
       <Request>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\turret_alt_diff_tex_0.xnb</Request>
@@ -101,13 +114,13 @@
       <Time>2011-10-12T05:39:30+11:00</Time>
     </Item>
     <Item>
-      <Source>heightmaptest.png</Source>
-      <Name>heightmaptest</Name>
+      <Source>heightmap8.png</Source>
+      <Name>heightmap8</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TerrainProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\heightmaptest.xnb</Output>
-      <Time>2011-10-23T20:11:23.244+11:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\heightmap8.xnb</Output>
+      <Time>2011-10-24T08:48:06.317+11:00</Time>
       <Request>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\terrain3_0.xnb</Request>
     </Item>
     <Item>
@@ -148,6 +161,15 @@
       <Time>2011-10-12T10:15:38+11:00</Time>
     </Item>
     <Item>
+      <Source>explosion.wav</Source>
+      <Name>explosion</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\explosion.xnb</Output>
+      <Time>2011-10-23T21:33:08.519+11:00</Time>
+    </Item>
+    <Item>
       <Source>cube.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
@@ -176,6 +198,13 @@
       <Options>None</Options>
       <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\pawball_0.xnb</Output>
       <Time>2010-09-20T12:52:56+10:00</Time>
+    </Item>
+    <Item>
+      <Source>obstacle.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\obstacle_0.xml</Output>
+      <Time>2011-10-23T22:03:47.081+11:00</Time>
     </Item>
     <Item>
       <Source>tank.fbx</Source>
@@ -233,33 +262,24 @@
       <Time>2011-10-23T20:18:27.112+11:00</Time>
     </Item>
     <Item>
-      <Source>explosion.wav</Source>
-      <Name>explosion</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\explosion.xnb</Output>
-      <Time>2011-10-23T21:33:08.519+11:00</Time>
-    </Item>
-    <Item>
-      <Source>obstacle.fbx</Source>
-      <Name>obstacle</Name>
+      <Source>ring.fbx</Source>
+      <Name>ring</Name>
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\obstacle.xnb</Output>
-      <Time>2011-10-23T22:03:47.081+11:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\ring.xnb</Output>
+      <Time>2011-10-24T08:56:29.0932+11:00</Time>
       <Dependency>
-        <Key>obj\x86\Debug\obstacle_0.xml</Key>
-        <Value>2011-10-23T22:15:18.109+11:00</Value>
+        <Key>obj\x86\Debug\ring_0.xml</Key>
+        <Value>2011-10-24T08:57:25.7418+11:00</Value>
       </Dependency>
     </Item>
     <Item>
-      <Source>obstacle.fbx</Source>
+      <Source>ring.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\obstacle_0.xml</Output>
-      <Time>2011-10-23T22:03:47.081+11:00</Time>
+      <Output>obj\x86\Debug\ring_0.xml</Output>
+      <Time>2011-10-24T08:56:29.0932+11:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -299,7 +319,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Users\Jawsh\Desktop\356Project\GameProjectPipeline\bin\x86\Debug\GameProjectPipeline.dll</Key>
-        <Value>2011-10-23T20:29:20.913+11:00</Value>
+        <Value>2011-10-24T08:48:45.2092+11:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
