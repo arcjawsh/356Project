@@ -68,6 +68,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
     </Compile>
+    <Compile Include="obstacle.fbx">
+      <Name>obstacle</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
     <None Include="terrain.bmp">
       <Name>terrain</Name>
       <Importer>TextureImporter</Importer>
@@ -109,11 +114,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="heightmap2.jpg">
+    <None Include="heightmap2.jpg">
       <Name>heightmap2</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TerrainProcessor</Processor>
-    </Compile>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="heightmap1.png">
@@ -153,6 +158,48 @@
   <ItemGroup>
     <Folder Include="Sounds\" />
     <Folder Include="Sprites\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="heightmap3.png">
+      <Name>heightmap3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TerrainProcessor</Processor>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="heightmap4.jpg">
+      <Name>heightmap4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TerrainProcessor</Processor>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="heightmaptest.png">
+      <Name>heightmaptest</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TerrainProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="terrain2.png">
+      <Name>terrain2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="terrain3.jpg">
+      <Name>terrain3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="explosion.wav">
+      <Name>explosion</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 

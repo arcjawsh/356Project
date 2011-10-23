@@ -16,6 +16,7 @@ namespace GameProject
     {
         SoundEffect beep;
         SoundEffect hover;
+        public SoundEffect explode;
         //for 3d positional
         public Boolean delete = false;
         public BoundingSphere targSphere;
@@ -53,7 +54,7 @@ namespace GameProject
         }
         private float facingDirection;
         Model model;
-        Matrix orientation = Matrix.Identity;
+        public Matrix orientation = Matrix.Identity;
         Matrix wheelRollMatrix = Matrix.Identity;
 
         ModelBone leftBackWheelBone;
@@ -81,6 +82,7 @@ namespace GameProject
         {
             model = content.Load<Model>("Tank");
             beep = content.Load<SoundEffect>("beep");
+            explode = content.Load<SoundEffect>("explosion");
             hover = content.Load<SoundEffect>("hover");
             healthTexture = content.Load<Texture2D>("health bar");
             font = content.Load<SpriteFont>("font");
@@ -266,6 +268,7 @@ namespace GameProject
                 {
                     if (this.sphere.Intersects(t.sphere))
                     {
+                        explode.Play();
                         delete = true; //set to delete
                         t.delete = true;
                         //game.tanksCount = game.tanksCount - 1;
@@ -376,10 +379,10 @@ namespace GameProject
                     effect.PreferPerPixelLighting = true;
 
                     // Set the fog to match the black background color
-                    effect.FogEnabled = true;
-                    effect.FogColor = Vector3.Zero;
-                    effect.FogStart = 1000;
-                    effect.FogEnd = 3200;
+                    //effect.FogEnabled = true;
+                    //effect.FogColor = Vector3.Zero;
+                    //effect.FogStart = 1000;
+                   // effect.FogEnd = 3200;
                 }
                 BoundingSphereRenderer.Draw(sphere, viewMatrix, projectionMatrix);
                 mesh.Draw();
@@ -457,6 +460,9 @@ namespace GameProject
             }
                 
             game.spriteBatch.End();
+            game.GraphicsDevice.BlendState = BlendState.Opaque;
+            game.GraphicsDevice.DepthStencilState = DepthStencilState.Default;
+            game.GraphicsDevice.SamplerStates[0] = SamplerState.LinearWrap;
 
 
 

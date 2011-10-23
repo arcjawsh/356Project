@@ -28,6 +28,7 @@ namespace GameProject
         SpriteFont font;
         public List<Tank> tanks = new List<Tank>();
         public List<Powerup> powerups = new List<Powerup>();
+        public List<Obstacle> obstacles = new List<Obstacle>();
         public Predicate<Powerup> deletePowerups;
         public Predicate<Tank> deleteTanks;
         public static Random random = new Random();
@@ -48,6 +49,9 @@ namespace GameProject
 
         public int tanksCount = 0;
         public Camera camera;
+
+
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -76,7 +80,7 @@ namespace GameProject
             font = Content.Load<SpriteFont>("font");
             skybox = new Skybox("Sunset", Content);
             //terrain = Content.Load<Model>("terrain");
-            terrain = Content.Load<Model>("heightmap2");
+            terrain = Content.Load<Model>("heightmaptest");
             // The terrain processor attached a HeightMapInfo to the terrain model's
            
             heightMapInfo = terrain.Tag as HeightMapInfo;            if (heightMapInfo == null)
@@ -94,8 +98,25 @@ namespace GameProject
 
             setTanks();
             setPowerups();
+            setObstacles();
 
 
+        }
+
+        public void setObstacles()
+        {
+            Obstacle obs = new Obstacle(this, heightMapInfo, new Vector3(500, 0, -500));
+            //Obstacle obs2 = new Obstacle(this, heightMapInfo, new Vector3(-4000, 0, 4000));
+            Obstacle obs3 = new Obstacle(this, heightMapInfo, new Vector3(4000, 0, 4000));
+            Obstacle obs4 = new Obstacle(this, heightMapInfo, new Vector3(4000, 0, -4000));
+            Obstacle obs5 = new Obstacle(this, heightMapInfo, new Vector3(-4000, 0, -4000));
+            obstacles.Add(obs);
+            //obstacles.Add(obs2);
+            obstacles.Add(obs3);
+            obstacles.Add(obs4);
+            obstacles.Add(obs5);
+
+            
         }
 
 
@@ -160,6 +181,11 @@ namespace GameProject
                     p.Update(gameTime);
                 }
 
+                //
+            foreach(Obstacle ob in obstacles)
+                ob.Update();
+                //
+
                 powerups.RemoveAll(deletePowerups);
                 tanks.RemoveAll(deleteTanks);
 
@@ -199,6 +225,10 @@ namespace GameProject
             graphics.GraphicsDevice.RasterizerState = originalRasterizerState;
             ///
             DrawModel(terrain); //draws the terrain
+            //
+            foreach (Obstacle ob in obstacles)
+                ob.Draw();
+                //
             if (tanks.Count != 0)
             {
                 foreach (Tank tank in tanks)

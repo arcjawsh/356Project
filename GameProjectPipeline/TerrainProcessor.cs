@@ -79,7 +79,7 @@ namespace GameProjectPipeline
         /// Controls the texture that will be applied to the terrain. If no value is
         /// supplied, a texture will not be applied.
         /// </summary>
-        [DefaultValue("grass.jpg")]
+        [DefaultValue("terrain3.jpg")]
         [Description("Controls the texture that will be applied to the terrain. If " +
                      "no value is supplied, a texture will not be applied.")]
         [DisplayName("Terrain Texture")]
@@ -88,7 +88,7 @@ namespace GameProjectPipeline
             get { return terrainTexture; }
             set { terrainTexture = value; }
         }
-        private string terrainTexture = "grass.jpg";
+        private string terrainTexture = "terrain3.jpg";
 
         #endregion
 
@@ -101,7 +101,8 @@ namespace GameProjectPipeline
         {
             PixelBitmapContent<float> heightfield;
 
-            MeshBuilder builder = MeshBuilder.StartMesh("terrain");
+            MeshBuilder builder = MeshBuilder.StartMesh("heightmaptest");
+            //was originally terrain
 
             // Convert the input texture to float format, for ease of processing.
             input.ConvertBitmapType(typeof(PixelBitmapContent<float>));

@@ -7,8 +7,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\font.xnb</Output>
-      <Time>2011-10-11T22:17:24-07:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\font.xnb</Output>
+      <Time>2011-10-11T22:17:24+11:00</Time>
     </Item>
     <Item>
       <Source>cube.fbx</Source>
@@ -16,11 +16,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\cube.xnb</Output>
-      <Time>2011-10-12T02:16:08-07:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\cube.xnb</Output>
+      <Time>2011-10-12T02:16:08+11:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\cube_0.xml</Key>
-        <Value>2011-10-22T19:05:32.6708-07:00</Value>
+        <Value>2011-10-23T20:29:21.465+11:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -29,13 +29,13 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sphere.xnb</Output>
-      <Time>2011-10-12T06:10:30-07:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\sphere.xnb</Output>
+      <Time>2011-10-12T06:10:30+11:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\sphere_0.xml</Key>
-        <Value>2011-10-22T19:05:32.9048-07:00</Value>
+        <Value>2011-10-23T20:29:21.687+11:00</Value>
       </Dependency>
-      <Request>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\pawball_0.xnb</Request>
+      <Request>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\pawball_0.xnb</Request>
     </Item>
     <Item>
       <Source>tank.fbx</Source>
@@ -43,14 +43,14 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\tank.xnb</Output>
-      <Time>2011-10-10T20:41:48-07:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\tank.xnb</Output>
+      <Time>2011-10-10T20:41:48+11:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\tank_0.xml</Key>
-        <Value>2011-10-22T19:05:35.1044-07:00</Value>
+        <Value>2011-10-23T20:29:23.768+11:00</Value>
       </Dependency>
-      <Request>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\engine_diff_tex_0.xnb</Request>
-      <Request>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\turret_alt_diff_tex_0.xnb</Request>
+      <Request>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\engine_diff_tex_0.xnb</Request>
+      <Request>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\turret_alt_diff_tex_0.xnb</Request>
     </Item>
     <Item>
       <Source>Skybox.fx</Source>
@@ -58,8 +58,8 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\Skybox.xnb</Output>
-      <Time>2011-10-12T02:16:08-07:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\Skybox.xnb</Output>
+      <Time>2011-10-12T02:16:08+11:00</Time>
     </Item>
     <Item>
       <Source>Sunset.dds</Source>
@@ -70,8 +70,8 @@
         <Data Key="PremultiplyAlpha">False</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\Sunset.xnb</Output>
-      <Time>2011-10-12T02:16:08-07:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\Sunset.xnb</Output>
+      <Time>2011-10-12T02:16:08+11:00</Time>
     </Item>
     <Item>
       <Source>DottedLine.png</Source>
@@ -79,18 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\DottedLine.xnb</Output>
-      <Time>2011-10-10T15:52:40-07:00</Time>
-    </Item>
-    <Item>
-      <Source>heightmap2.jpg</Source>
-      <Name>heightmap2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TerrainProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\heightmap2.xnb</Output>
-      <Time>2011-10-11T20:44:46-07:00</Time>
-      <Request>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\grass_0.xnb</Request>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\DottedLine.xnb</Output>
+      <Time>2011-10-10T15:52:40+11:00</Time>
     </Item>
     <Item>
       <Source>mouse.png</Source>
@@ -98,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\mouse.xnb</Output>
-      <Time>2011-10-11T21:20:24-07:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\mouse.xnb</Output>
+      <Time>2011-10-11T21:20:24+11:00</Time>
     </Item>
     <Item>
       <Source>health bar.png</Source>
@@ -107,8 +97,18 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\health bar.xnb</Output>
-      <Time>2011-10-12T05:39:30-07:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\health bar.xnb</Output>
+      <Time>2011-10-12T05:39:30+11:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaptest.png</Source>
+      <Name>heightmaptest</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TerrainProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\heightmaptest.xnb</Output>
+      <Time>2011-10-23T20:11:23.244+11:00</Time>
+      <Request>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\terrain3_0.xnb</Request>
     </Item>
     <Item>
       <Source>backgroundMusic.mp3</Source>
@@ -116,9 +116,9 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\backgroundMusic.xnb</Output>
-      <Extra>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\backgroundMusic.wma</Extra>
-      <Time>2011-10-10T20:36:50-07:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\backgroundMusic.xnb</Output>
+      <Extra>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\backgroundMusic.wma</Extra>
+      <Time>2011-10-10T20:36:50+11:00</Time>
     </Item>
     <Item>
       <Source>beep.wav</Source>
@@ -126,8 +126,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\beep.xnb</Output>
-      <Time>2011-10-10T21:13:10-07:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\beep.xnb</Output>
+      <Time>2011-10-10T21:13:10+11:00</Time>
     </Item>
     <Item>
       <Source>hover.wav</Source>
@@ -135,8 +135,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\hover.xnb</Output>
-      <Time>2011-10-12T01:12:58-07:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\hover.xnb</Output>
+      <Time>2011-10-12T01:12:58+11:00</Time>
     </Item>
     <Item>
       <Source>engine.wav</Source>
@@ -144,22 +144,22 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\engine.xnb</Output>
-      <Time>2011-10-12T10:15:38-07:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\engine.xnb</Output>
+      <Time>2011-10-12T10:15:38+11:00</Time>
     </Item>
     <Item>
       <Source>cube.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\cube_0.xml</Output>
-      <Time>2011-10-12T02:16:08-07:00</Time>
+      <Time>2011-10-12T02:16:08+11:00</Time>
     </Item>
     <Item>
       <Source>sphere.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\sphere_0.xml</Output>
-      <Time>2011-10-12T06:10:30-07:00</Time>
+      <Time>2011-10-12T06:10:30+11:00</Time>
     </Item>
     <Item>
       <Source>pawball.tga</Source>
@@ -174,15 +174,15 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\pawball_0.xnb</Output>
-      <Time>2010-09-20T13:52:56-07:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\pawball_0.xnb</Output>
+      <Time>2010-09-20T12:52:56+10:00</Time>
     </Item>
     <Item>
       <Source>tank.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\tank_0.xml</Output>
-      <Time>2011-10-10T20:41:48-07:00</Time>
+      <Time>2011-10-10T20:41:48+11:00</Time>
     </Item>
     <Item>
       <Source>engine_diff_tex.tga</Source>
@@ -197,8 +197,8 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\engine_diff_tex_0.xnb</Output>
-      <Time>2010-09-20T13:53:08-07:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\engine_diff_tex_0.xnb</Output>
+      <Time>2010-09-20T12:53:08+10:00</Time>
     </Item>
     <Item>
       <Source>turret_alt_diff_tex.tga</Source>
@@ -213,11 +213,11 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\turret_alt_diff_tex_0.xnb</Output>
-      <Time>2010-09-20T13:53:10-07:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\turret_alt_diff_tex_0.xnb</Output>
+      <Time>2010-09-20T12:53:10+10:00</Time>
     </Item>
     <Item>
-      <Source>grass.jpg</Source>
+      <Source>terrain3.jpg</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -229,8 +229,37 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\grass_0.xnb</Output>
-      <Time>2011-10-09T19:07:54-07:00</Time>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\terrain3_0.xnb</Output>
+      <Time>2011-10-23T20:18:27.112+11:00</Time>
+    </Item>
+    <Item>
+      <Source>explosion.wav</Source>
+      <Name>explosion</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\explosion.xnb</Output>
+      <Time>2011-10-23T21:33:08.519+11:00</Time>
+    </Item>
+    <Item>
+      <Source>obstacle.fbx</Source>
+      <Name>obstacle</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\obstacle.xnb</Output>
+      <Time>2011-10-23T22:03:47.081+11:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\obstacle_0.xml</Key>
+        <Value>2011-10-23T22:15:18.109+11:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>obstacle.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\obstacle_0.xml</Output>
+      <Time>2011-10-23T22:03:47.081+11:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -238,43 +267,43 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProjectContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProjectContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProject\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProjectContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProjectContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProject\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2010-08-23T12:41:18-07:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+10:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2010-08-23T12:41:18-07:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+10:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2010-08-23T12:41:18-07:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+10:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2010-08-23T12:41:18-07:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+10:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2010-08-23T12:41:18-07:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+10:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2010-08-23T12:41:18-07:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+10:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Users\jawsh\Desktop\GameProject\GameProjectPipeline\bin\x86\Debug\GameProjectPipeline.dll</Key>
-        <Value>2011-10-22T19:05:19.6824-07:00</Value>
+        <Key>C:\Users\Jawsh\Desktop\356Project\GameProjectPipeline\bin\x86\Debug\GameProjectPipeline.dll</Key>
+        <Value>2011-10-23T20:29:20.913+11:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2011-10-02T23:55:23.7626-07:00</Value>
+        <Value>2011-08-04T11:05:20.6468+10:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

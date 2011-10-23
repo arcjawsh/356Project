@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>sphere01</Name>
     <Identity>
-      <SourceFilename>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProjectContent\sphere.fbx</SourceFilename>
+      <SourceFilename>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProjectContent\sphere.fbx</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>2.54 0 0 0 0 1.55530138E-16 -2.54 0 0 2.54 1.55530138E-16 0 -1.0456522E-06 -1.0456522E-06 0 1</Transform>
@@ -26,7 +26,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>pawball</Name>
       <Identity>
-        <SourceFilename>C:\Users\jawsh\Desktop\GameProject\GameProject\GameProjectContent\sphere.fbx</SourceFilename>
+        <SourceFilename>C:\Users\Jawsh\Desktop\356Project\GameProject\GameProjectContent\sphere.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

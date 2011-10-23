@@ -5,9 +5,9 @@ Content\tank.xnb
 Content\Skybox.xnb
 Content\Sunset.xnb
 Content\DottedLine.xnb
-Content\heightmap2.xnb
 Content\mouse.xnb
 Content\health bar.xnb
+Content\heightmaptest.xnb
 Content\backgroundMusic.xnb
 Content\backgroundMusic.wma
 Content\beep.xnb
@@ -16,4 +16,6 @@ Content\engine.xnb
 Content\pawball_0.xnb
 Content\engine_diff_tex_0.xnb
 Content\turret_alt_diff_tex_0.xnb
-Content\grass_0.xnb
+Content\terrain3_0.xnb
+Content\explosion.xnb
+Content\obstacle.xnb
